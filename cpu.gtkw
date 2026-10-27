@@ -1,0 +1,22 @@
+[dumpfile] "cpu.vcd"
+[timestart] 0
+@28
+testbench.cpu.clk
+testbench.cpu.reset
+@24
+testbench.cpu.pc[31:0]
+@22
+testbench.cpu.instr[31:0]
+@28
+testbench.cpu.reg_write
+testbench.cpu.alu_src
+testbench.cpu.mem_write
+testbench.cpu.mem_to_reg
+testbench.cpu.branch
+@24
+testbench.cpu.alu_result[31:0]
+@28
+testbench.cpu.zero
+@24
+testbench.cpu.write_back[31:0]
+testbench.cpu.pc_next[31:0]

@@ -1,0 +1,3 @@
+cpu_sim
+*.vcd
+.DS_Store

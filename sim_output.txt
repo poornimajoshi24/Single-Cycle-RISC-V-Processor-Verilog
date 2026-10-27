@@ -1,0 +1,30 @@
+PC= 0  instr=00c00093  x1=0 x2=0 x3=0 x4=0 x5=0 x6=0 x7=0 x8=0 x9=0  mem[0]=0
+PC= 4  instr=00a00113  x1=12 x2=0 x3=0 x4=0 x5=0 x6=0 x7=0 x8=0 x9=0  mem[0]=0
+PC= 8  instr=002081b3  x1=12 x2=10 x3=0 x4=0 x5=0 x6=0 x7=0 x8=0 x9=0  mem[0]=0
+PC=12  instr=40208233  x1=12 x2=10 x3=22 x4=0 x5=0 x6=0 x7=0 x8=0 x9=0  mem[0]=0
+PC=16  instr=0020f2b3  x1=12 x2=10 x3=22 x4=2 x5=0 x6=0 x7=0 x8=0 x9=0  mem[0]=0
+PC=20  instr=0020e333  x1=12 x2=10 x3=22 x4=2 x5=8 x6=0 x7=0 x8=0 x9=0  mem[0]=0
+PC=24  instr=00302023  x1=12 x2=10 x3=22 x4=2 x5=8 x6=14 x7=0 x8=0 x9=0  mem[0]=0
+PC=28  instr=00002383  x1=12 x2=10 x3=22 x4=2 x5=8 x6=14 x7=0 x8=0 x9=0  mem[0]=22
+PC=32  instr=00718463  x1=12 x2=10 x3=22 x4=2 x5=8 x6=14 x7=22 x8=0 x9=0  mem[0]=22
+PC=40  instr=06300493  x1=12 x2=10 x3=22 x4=2 x5=8 x6=14 x7=22 x8=0 x9=0  mem[0]=22
+PC=44  instr=00000063  x1=12 x2=10 x3=22 x4=2 x5=8 x6=14 x7=22 x8=0 x9=99  mem[0]=22
+PC=44  instr=00000063  x1=12 x2=10 x3=22 x4=2 x5=8 x6=14 x7=22 x8=0 x9=99  mem[0]=22
+PC=44  instr=00000063  x1=12 x2=10 x3=22 x4=2 x5=8 x6=14 x7=22 x8=0 x9=99  mem[0]=22
+PC=44  instr=00000063  x1=12 x2=10 x3=22 x4=2 x5=8 x6=14 x7=22 x8=0 x9=99  mem[0]=22
+PC=44  instr=00000063  x1=12 x2=10 x3=22 x4=2 x5=8 x6=14 x7=22 x8=0 x9=99  mem[0]=22
+
+========== FINAL CHECK ==========
+  PASS  x1 = 12
+  PASS  x2 = 10
+  PASS  x3 = 22
+  PASS  x4 = 2
+  PASS  x5 = 8
+  PASS  x6 = 14
+  PASS  mem[0] = 22
+  PASS  x7 = 22
+  PASS  x8 = 0
+  PASS  x9 = 99
+  PASS  PC = 44
+>>> ALL TESTS PASSED <<<
+testbench.v:82: $finish called at 160 (1s)
